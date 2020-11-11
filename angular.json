@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "DressUp"
+    }
+  },
+  "defaultProject": "DressUp",
+  "cli": {
+    "analytics": "ca98c5e7-e94d-4871-9f96-872d27d82f04"
+  }
 }
