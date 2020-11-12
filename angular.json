@@ -123,10 +123,6 @@
   },
   "defaultProject": "DressUp",
   "cli": {
-<<<<<<< HEAD
-    "analytics": "ca98c5e7-e94d-4871-9f96-872d27d82f04"
-=======
     "analytics": "dc775e0f-32a6-49a2-b0a3-46fff94dcc2d"
->>>>>>> 4bd67535f8e6d835ec5f6f68452f02df24684db4
   }
 }
