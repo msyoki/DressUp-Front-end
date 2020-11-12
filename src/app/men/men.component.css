@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+#header{
+    margin-left:30%;
+    /* width:50%;
+    height:15%; */
+}
+
+.container-fluid{
+    
+    width:100%;
+    height:500px;
+}
+
+#two,#three{
+    
+    
+    
+    width:50%;
+    height:450px;
+    border-radius: 2px solid black;
+   
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color:white;
+  }
+/* .bottom-right {
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-right:50px;
+  } */
+  .container p{
+      text-align: center;
+      padding-right:180px;
+     
+     
+  }
+  
+h1{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-top: 20px;
+    margin-left:50px;
+    margin-right: 10%;
+}
+p{
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    margin-left:5%;
+    margin-right: 10%;
+}
+.card{
+    border:0px solid grey;
+    width:250px;
+    height:300px;
+}
+.card-footer{
+    background-color: white;
+
+}
+button{
+    margin-left:50px;
+    margin-bottom:5px;
+}
+.container img{
+   
+    width:200px;
+    height:250px;
+} 
