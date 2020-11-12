@@ -1,53 +1,58 @@
-<div>
- 
-    <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <a class="navbar-brand" href="#!">
-      <h1>{{ title }}</h1>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+
+    
+    <a class="navbar-brand" href="/" target="_blank">
+      <strong>DressUp</strong>
     </a>
-    <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav1"
-      aria-controls="basicExampleNav1" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Collapse -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <!-- Links -->
-    <div class="collapse navbar-collapse" id="basicExampleNav1">
-      <!-- Right -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle waves-effect" id="navbarDropdownMenuLink3" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="true">
-            <h6>Categories</h6>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#!">Gents</a>
-            <a class="dropdown-item" href="#!">Ladies</a>
-            <a class="dropdown-item" href="#!">Kids</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#!" class="nav-link waves-effect">
-            About 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Left -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home
+            <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a href="#!" class="nav-link waves-effect">
-            Contact
-          </a>
+          <a class="nav-link" href="#products" target="_blank">Products</a>
         </li>
         <li class="nav-item">
-          <a href="#!" class="nav-link waves-effect">
-            Sign in
-          </a>
+          <a class="nav-link" href="#services" target="_blank">Our Services</a>
         </li>
-        <li class="nav-item pl-2 mb-2 mb-md-0">
-          <a href="#!" type="button"
-            class="btn btn-outline-info btn-md btn-rounded btn-navbar waves-effect waves-light">Sign up</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts" target="_blank">Contact Us</a>
         </li>
       </ul>
+
+      <!-- Right -->
+      <ul class="navbar-nav nav-flex-icons">
+        <li>
+          <a href="">
+              <i><img class="rounded-circle " src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 44px;height: 40px;" ></i>
+          </a>
+        </li>
+        <li class="nav-item pl-2">
+          <a href="https://github.com/mdbootstrap/bootstrap-material-design" type="button" class="btn btn-sm btn-light btn-rounded">
+            <strong >Sign In</strong>  
+          </a>
+        </li>
+        <li class="nav-item pl-2">
+          <a href="https://github.com/mdbootstrap/bootstrap-material-design" type="button" class="btn btn-sm btn-light btn-rounded">
+              <strong >Sign Up</strong>  
+            </a>
+        </li>
+      </ul>
+
     </div>
-    <!-- Links -->
-  </nav>
-  <!-- Navbar -->
-</div>
+
+ </div>
+</nav>
