@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MenComponent } from './men/men.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { MenDetailComponent } from './men-detail/men-detail.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
@@ -12,7 +11,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     AppComponent,
     MenComponent,
     NavbarComponent,
-    MenDetailComponent,
+    
     LandingPageComponent
   ],
   imports: [
