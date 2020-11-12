@@ -1,4 +1,84 @@
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="/" target="_blank">
+        <strong>DressUp</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products" target="_blank">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services" target="_blank">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts" target="_blank">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li>
+            <a href="">
+                <i><img class="rounded-circle " src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 44px;height: 40px;" ></i>
+            </a>
+          </li>
+          <li class="nav-item pl-2">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" type="button" class="btn btn-sm btn-light btn-rounded">
+              <strong >Sign In</strong>  
+            </a>
+          </li>
+          <li class="nav-item pl-2">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" type="button" class="btn btn-sm btn-light btn-rounded">
+                <strong >Sign Up</strong>  
+              </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <div style="background-color: #b6b4b4;padding-top:200px;padding-bottom:100px;">
+    <div class="row">
+        <div class="col-lg-5">
+            <img src="https://assets.jiji.co.ke/static/img/main-page/man.png" alt="">
+        </div>
+        <div class="col-lg-2">
+            <h1 style="color:white;font-weight:bold;text-align:center">Karibu DressUp!</h1>
+            <h5 style="color:white;text-align:center"><strong>Shop N' Sell</strong> Fashion All Day Every Day!</h5>
+        </div>
+        <div class="col-lg-5">
+            <img src="https://assets.jiji.co.ke/static/img/main-page/girls.png" alt="" style="">
+        </div>
+ 
+    </div>
+
+        
+  </div>
+  <!-- Navbar -->
 <main style="margin-top: 8%;">
+    <div>
+
+    </div>
 
     <div class="container-xl">
 
@@ -140,7 +220,10 @@
         </div>
         <!-- Section deal -->
         <section class="py-2 my-4">
-
+        <div id="products">
+            <h1>PRODUCT SECTION</h1>
+        </div>
+        
             <div class="card">
                 <div class="card-body">
 
@@ -268,11 +351,11 @@
                 </div>
             </div>
 
-        </section>
+        </section><br><br>
         <!-- Section deal -->
 
         <div class="divider-new version-2 mt-5 mb-0">
-            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">Our Services</h4>
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" id="services">Our Services</h4>
         </div>
 
         <section class="py-2 my-4">
@@ -297,6 +380,12 @@
             </div>
 
         </section>
+        <div class="divider-new version-2 mt-4 mb-0">
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">MEDIA</h4>
+        </div><br>
+            <div><iframe width="250" height="200" src="https://www.youtube.com/embed/Ea2cAp5LtM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            </div>
         <!-- Section shelf -->
         <div class="divider-new version-2 mt-4 mb-0">
             <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">Choose region</h4>
@@ -348,53 +437,37 @@
     </div>
     <section class="py-2 my-4">
         <div class="row container-fluid">
-            <div class="container col-2">
-                <div class="zoom">
-                    <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 200px;height: 200px;">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar">
+            <div class="container col-4">
+                <div>
+                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar" style="width: 100px;height: 100px;">
                 </div>
-                <p class="pl2">Team Member</p>
+                <div>
+                    <p class="text-center"style="font-size: smaller;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, hic?</p>
+                </div>
             </div>
-            <div class="container col-2">
-                <div class="zoom">
-                    <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 200px;height: 200px;">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar">
+            <div class="container col-4">
+                <div>
+                    
+                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar" style="width: 100px;height: 100px;">
                 </div>
-                <p>Team Member</p>
+                <div>
+                    <p class="text-center"style="font-size: smaller;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, hic?</p>
+                </div>
             </div>
-            <div class="container col-2">
-                <div class="zoom">
-                    <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 200px;height: 200px;">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar">
+            <div class="container col-4">
+                <div >
+                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar" style="width: 100px;height: 100px;">
+                     <p class="text-center"style="font-size: smaller;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, hic?</p>
                 </div>
-                <p>Team Member</p>
-            </div>
-            <div class="container col-2">
-                <div class="zoom">
-                    <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 200px;height: 200px;">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar">
+                <div>
+                   
                 </div>
-                <p>Team Member</p>
-            </div>
-            <div class="container col-2">
-                <div class="zoom">
-                    <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 200px;height: 200px;">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar">
-                </div>
-                <p>Team Member</p>
-            </div>
-            <div class="container col-2">
-                <div class="zoom">
-                    <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar1" style="width: 200px;height: 200px;">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" id="avatar">
-                </div>
-                <p>Team Member</p>
             </div>
         </div>
     </section>
 </main>
 <!-- Footer -->
-<footer class="page-footer font-small elegant-color">
+<footer class="page-footer font-small elegant-color" >
 
     <div class="color-primary">
         <div class="container">
@@ -529,7 +602,7 @@
             <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
 
                 <!-- Links -->
-                <h5>Contacts</h5>
+                <h5 id="contacts">Contacts</h5>
                 <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
 
                 <ul class="fa-ul foot-desc ml-4">
