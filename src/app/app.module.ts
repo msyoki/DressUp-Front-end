@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MenComponent } from './men/men.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { LadiesComponent } from './ladies/ladies.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     MenComponent,
     NavbarComponent,
     
-    LandingPageComponent
+    LandingPageComponent,
+    
+    LadiesComponent
   ],
   imports: [
     BrowserModule,
