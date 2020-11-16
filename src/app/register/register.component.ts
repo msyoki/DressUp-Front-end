@@ -1,7 +1,14 @@
+
 import { Component, OnInit } from '@angular/core';
 import { RegisterService } from '../register.service';
 import Swal from 'sweetalert2/dist/sweetalert2.js';  
 
+// }
+
+
+import { Component, OnInit } from '@angular/core';
+import { RegisterService } from './register.service';
+import Swal from 'sweetalert2/dist/sweetalert2.js';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -10,7 +17,6 @@ import Swal from 'sweetalert2/dist/sweetalert2.js';
 })
 export class RegisterComponent implements OnInit {
   register;
-
   constructor(private registerService: RegisterService ){
 
   }
@@ -25,6 +31,7 @@ export class RegisterComponent implements OnInit {
   registerUser(){
     this.registerService.registerUser(this.register).subscribe(
       response => {
+
         Swal.fire({  
           icon: 'success',  
           title: this.register.username + ' you are successfully registered!',
@@ -39,3 +46,4 @@ export class RegisterComponent implements OnInit {
     )
   }
 }
+
