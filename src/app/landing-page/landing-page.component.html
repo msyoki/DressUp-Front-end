@@ -42,12 +42,12 @@
             </a>
           </li>
           <li class="nav-item pl-2">
-            <a routerLink="/login" routerLinkActive="active"type="button" class="btn btn-sm btn-light btn-rounded">
-              <strong >Sign In</strong>  
+            <a routerLink="/login" routerLinkActive="active"type="button" class="btn btn-sm btn-info btn-rounded">
+              <strong>Sign In</strong>  
             </a>
           </li>
           <li class="nav-item pl-2">
-            <a routerLink="/register" routerLinkActive="active" type="button" class="btn btn-sm btn-light btn-rounded">
+            <a routerLink="/register" routerLinkActive="active" type="button" class="btn btn-sm btn-info btn-rounded">
                 <strong >Sign Up</strong>  
             </a>
           </li>
@@ -60,19 +60,15 @@
 
   </nav>
 <!-- Image of landing page -->
-  <div style="background-color: #b6b4b4; padding-top: 320px; overflow: hidden;">
-    <div class="row">
-        <div class="col-lg-5">
-            <img src="https://assets.jiji.co.ke/static/img/main-page/man.png" alt="">
-        </div>
-        <div class="col-lg-2">
-            <h1 style="color:white;font-weight:bold;text-align:center">Karibu DressUp!</h1>
-            <h5 style="color:white;text-align:center"><strong>Shop N' Sell</strong> Fashion All Day Every Day!</h5>
-        </div>
-        <div class="col-lg-5">
-            <img src="https://assets.jiji.co.ke/static/img/main-page/girls.png" alt="" >
-        </div>
-    </div>    
+  <div style="background-color: #b6b4b4; padding-top: 100px; overflow: hidden;">
+    <div >
+        <h1 style="color:white;font-weight:bold;text-align:center">Karibu DressUp!</h1>
+        <h5 style="color:white;text-align:center"><strong>Shop N' Sell</strong> Fashion All Day Every Day!</h5>
+    </div>   
+    <div class="text-center">
+        <img src="./assets/images/bg.png" alt="">
+    </div>
+   
   </div>
 
   <!-- Navbar -->
@@ -221,9 +217,10 @@
         </div><br>
         <!-- Section deal -->
         <section class="py-2 my-4">
-
+        <div class="divider-new version-2 mt-5 mb-0">
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">PRODUCTS</h4>
+        </div><br><br>
         <div id="products">
-            <h1>PRODUCT SECTION</h1>
             <app-product-list></app-product-list>
         </div><br>
         
