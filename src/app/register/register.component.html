@@ -11,21 +11,21 @@
                     <form class="text-center border border-light p-5">
 
                         <!-- E-mail -->
-                        <input type="text" id="defaultRegisterFormUsername" class="form-control mb-4" placeholder="Username">
+                        <input [(ngModel)]="register.username" [ngModelOptions]="{standalone: true}" type="text" id="defaultRegisterFormUsername" class="form-control mb-4" placeholder="Username">
                     
                     
                         <!-- E-mail -->
-                        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <input  [(ngModel)]="register.email" [ngModelOptions]="{standalone: true}" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
                     
                         <!-- Password -->
-                        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                        <input  [(ngModel)]="register.password" [ngModelOptions]="{standalone: true}" type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
                         <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
                           At least 8 characters and 1 digit
                         </small>
 
                     
                         <!-- Sign up button -->
-                        <button  class="btn btn-info" type="submit">Sign Up</button>
+                        <button (click)="registerUser()" class="btn btn-info" type="submit">Sign in</button>
 
                         <hr>
                     
