@@ -30,7 +30,12 @@ export class RegisterComponent implements OnInit {
           title: this.register.username + ' you are successfully registered!',
         })  
       },
-      error => console.log('error')
+      error => {
+        Swal.fire({  
+          icon: 'error',  
+          title: this.register.username + ' you are already registered user!',
+        })  
+      }
     )
   }
 }
