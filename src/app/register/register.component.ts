@@ -27,13 +27,15 @@ export class RegisterComponent implements OnInit {
       response => {
         Swal.fire({  
           icon: 'success',  
-          title: this.register.username + ' you are successfully registered!',
+          title: this.register.username ,
+          text: ' is  successfully registered!'
         })  
       },
       error => {
         Swal.fire({  
           icon: 'error',  
-          title: this.register.username + ' you are already registered user!',
+          title: this.register.username,
+          text:  ' is already registered user!',
         })  
       }
     )
