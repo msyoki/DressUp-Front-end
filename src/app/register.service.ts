@@ -10,7 +10,7 @@ export class RegisterService {
   constructor(private http: HttpClient) { }
 
   registerUser(userData):Observable<any>{
-    return this.http.post('http://127.0.0.1:8000/api/register/', userData)
+    return this.http.post('https://dressup05.herokuapp.com/api/register/', userData)
   }
 }
  
