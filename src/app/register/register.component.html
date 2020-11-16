@@ -22,7 +22,6 @@
                         <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
                           At least 8 characters and 1 digit
                         </small>
-
                     
                         <!-- Sign up button -->
                         <button  class="btn btn-info" type="submit">Sign Up</button>
@@ -33,7 +32,22 @@
                         <small>By clicking
                           <em>Sign up</em> you agree to our
                           <a href="" target="_blank">terms of service</a></small>
-                    
+
+                            <!-- Form validation -->
+                          <!-- <label for="login">Login:</label>
+                          <input id="login" formControlName="login">
+                        
+                          <button [disabled]="form.invalid || form.pending">
+                            Send
+                            <span *ngIf="form.get('login').pending"> (searching)</span>
+                          </button>
+                        
+                          <p style="color: red" *ngIf="form.get('login').errors?.userNameExists">Not available</p>
+                        
+                          <hr>
+                        
+                          <small>NOTE: Bret, Samantha, Karianne are already taken. Try them</small> -->
+
                     </form>
                 </div>
             </div>
