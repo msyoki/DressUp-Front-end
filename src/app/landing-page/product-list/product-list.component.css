@@ -1,10 +1,44 @@
 #products{
     display: flex;
     flex-direction: row;
-   
   }
 
 .card{
     margin-right: 10px;
     width: 18rem;
+}
+
+
+
+span {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 1.2em;
+  font-weight: 600;
+
+}
+span:hover {
+  background-color: white;
+  opacity: 0.2;
+
+}
+
+span {
+  background-color: rgba(2,168,224,0.8);
+  color: #fff;
+}
+a{
+  position: relative;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  width: 300px;
+  height: 200px;
+  display: block;
+  background-size: 300px;
 }
