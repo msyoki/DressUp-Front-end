@@ -5,9 +5,8 @@ import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MenComponent } from './men/men.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-
 import { LadiesComponent } from './ladies/ladies.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ProductListComponent } from './landing-page/product-list/product-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
@@ -16,13 +15,12 @@ import { RegisterComponent } from './register/register.component';
 @NgModule({
   declarations: [
     AppComponent,
-
     MenComponent,
     LadiesComponent,
     LandingPageComponent,
-    ProductListComponent,
+    RegisterComponent,
     LoginComponent,
-    RegisterComponent
+    ProductListComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +28,7 @@ import { RegisterComponent } from './register/register.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+ providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
