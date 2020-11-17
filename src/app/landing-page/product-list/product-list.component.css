@@ -1,0 +1,10 @@
+#products{
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+.card{
+    margin-right: 10px;
+    width: 18rem;
+}

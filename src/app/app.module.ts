@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
+import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MenComponent } from './men/men.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -17,8 +17,8 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
     MenComponent,
     NavbarComponent,
-    LandingPageComponent,
     LadiesComponent,
+    LandingPageComponent,
     RegisterComponent,
     LoginComponent,
     ProductListComponent,
@@ -26,7 +26,8 @@ import { RegisterComponent } from './register/register.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
  providers: [],
   bootstrap: [AppComponent]
