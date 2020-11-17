@@ -1,12 +1,9 @@
 <div class="container">
-   <div class="grid">
-        <ng-container *ngFor="let product of products$ | async">
-            <a href="#" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
-                <span>{{ product.name }} <br><small> {{ product.category }}</small></span>
-                
-            </a><br><br><br>
-        </ng-container>
-    </div>
+        <div class="grid">
+            <ng-container *ngFor="let product of products$ | async">
+                <a href="#" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
+                    <span>{{ product.name }} <br><small> {{ product.category }}</small></span>
+                </a><br><br><br>
+            </ng-container>
+        </div>
 </div>
-
-
