@@ -1,6 +1,8 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Create 2 columns and auto-place rows */
+  overflow: hidden;
+
  
 
 
@@ -39,3 +41,22 @@ a{
   display: block;
   background-size: 300px;
 }
+
+
+
+
+
+@media(max-width:1100px){
+  .grid{
+    display:grid;
+    
+    padding: 0 50px;
+
+  }
+}
+
+
+
+
+
+
