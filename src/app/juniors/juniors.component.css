@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+#header{
+  margin-left:30%;
+}
+.container-fluid{
+  width: 100%;
+  height: 400px;
+}
+#two,#three{
+  width: 50%;
+  height: 450px;
+  border-radius: 2px solid black;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+}
+.container p{
+  text-align: center;
+  padding-right: 180px;
+}
+  
+h1{
+  text-align: center;
+  font-family: sans-serif ;
+  padding-top: 100px;
+  margin-left: 50px;
+  margin-right: 10%;
+}
+p{
+  float: right;
+  font-family: sans-serif;
+  padding-top: 20px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.card{
+  border: 0px solid grey;
+  width: 250px;
+  height: 300px;
+}
+.card-footer{
+  background-color: white;
+}
+.btn-secondary{
+  color: grey;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+.container img{
+  width: 200px;
+  height: 250px;
+} 
