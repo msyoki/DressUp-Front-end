@@ -18,7 +18,7 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
 
     MenComponent,
-    LadiesComponent
+    LadiesComponent,
     LandingPageComponent,
     ProductListComponent,
     LoginComponent,
