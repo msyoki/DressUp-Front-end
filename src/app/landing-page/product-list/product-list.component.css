@@ -1,13 +1,10 @@
-#products{
-    display: flex;
-    flex-direction: row;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Create 2 columns and auto-place rows */
+ 
 
-.card{
-    margin-right: 10px;
-    width: 18rem;
+
 }
-
 
 
 span {
@@ -38,7 +35,7 @@ a{
   margin-left: 25px;
   margin-bottom: 50px;
   width: 300px;
-  height: 200px;
+  height: 300px;
   display: block;
   background-size: 300px;
 }
