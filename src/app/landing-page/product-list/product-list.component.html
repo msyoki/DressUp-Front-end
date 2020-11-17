@@ -1,20 +1,10 @@
 
-<div class="container-fluid"  id="products">
+<div class="container" id="products">
     <div *ngFor="let product of products$ | async">
-        <a href="#" style="background-image: url('https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')">
+        <a href="#" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
             <span>{{ product.name }} <br><small> {{ product.category }}</small></span>
             
         </a><br><br><br>
-        <img class="card-img-top" src="https://dressup05.herokuapp.com{{ product.image }}" alt="Card image cap">
-        <div class="card " >
-            <img src="" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Product details</h5>
-                <p class="card-text">Price:{{ product.name }} </p>
-                <p class="card-text">Category:{{ product.size }} </p>
-                <p class="card-text">Category:{{ product.category }} </p>
-            </div>
-        </div><br>
     </div>
 </div>
 
