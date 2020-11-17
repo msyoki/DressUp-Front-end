@@ -53,4 +53,5 @@ p{
 .container img{
   width: 200px;
   height: 250px;
-} 
+  padding-top: -20px;
+}
