@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { MenComponent } from './men/men.component';
 import { LadiesComponent } from './ladies/ladies.component';
+import { JuniorsComponent } from './juniors/juniors.component';
 // import { LoginComponent } from './login/login.component';
 
 
@@ -16,6 +17,7 @@ const routes: Routes= [
   {path: 'register', component: RegisterComponent},
   {path: 'men', component: MenComponent},
   {path: 'ladies', component: LadiesComponent},
+  {path: 'juniors', component: JuniorsComponent},
 ];
 
 @NgModule({
@@ -30,8 +32,3 @@ const routes: Routes= [
 
 })
 export class AppRoutingModule { }
-
-
-
-
-

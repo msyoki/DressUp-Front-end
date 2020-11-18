@@ -4,8 +4,6 @@
   text-align: center;
 
 }
-
-
 span {
   position: absolute;
   bottom: 0;
@@ -21,7 +19,6 @@ span {
 span:hover {
   background-color: white;
   opacity: 0.2;
-
 }
 
 span {
