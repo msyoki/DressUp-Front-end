@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LadiesProductsComponent } from './ladies/ladies-products/ladies-products.component';
 import { JuniorsComponent } from './juniors/juniors.component';
+import { JuniorProductsComponent } from './juniors/junior-products/junior-products.component';
+import { MenProductsComponent } from './men/men-products/men-products.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { JuniorsComponent } from './juniors/juniors.component';
     NavbarComponent,
     LadiesProductsComponent,
     JuniorsComponent,
+    JuniorProductsComponent,
+    MenProductsComponent,
 
   ],
   imports: [
