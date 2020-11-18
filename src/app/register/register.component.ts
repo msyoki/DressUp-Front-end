@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RegisterService } from '../register.service';
+import { RegisterService } from './register.service';
 import Swal from 'sweetalert2/dist/sweetalert2.js';  
 
 @Component({
