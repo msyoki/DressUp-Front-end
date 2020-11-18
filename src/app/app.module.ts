@@ -11,6 +11,7 @@ import { ProductListComponent } from './landing-page/product-list/product-list.c
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { LadiesProductsComponent } from './ladies/ladies-products/ladies-products.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     ProductListComponent,
     NavbarComponent,
+    LadiesProductsComponent,
 
   ],
   imports: [
