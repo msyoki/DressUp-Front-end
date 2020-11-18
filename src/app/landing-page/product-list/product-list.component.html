@@ -1,14 +1,11 @@
-<div class="col-lg-4 col-lg-4 col-lg-4 " id="products">
-    <div *ngFor="let product of products$ | async">
-        <img class="card-img-top" src="{{ product.image }}" alt="Card image cap">
-        <div class="card ">
-            <img src="" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Product details</h5>
-                <p class="card-text">Price: {{ product.name }} </p>
-                <p class="card-text">Size: {{ product.size }} </p>
-                <p class="card-text">Category: {{ product.category }} </p>
-            </div>
-        </div><br>
+
+   <div class="grid" >
+        <ng-container *ngFor="let product of products$ | async">
+            <a href="#" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
+                <span>{{ product.name }} <br><small> {{ product.category }}</small></span>
+                
+            </a><br><br><br>
+        </ng-container>
     </div>
-</div>
+
+

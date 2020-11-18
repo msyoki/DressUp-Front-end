@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LadiesProductsComponent } from './ladies/ladies-products/ladies-products.component';
+import { JuniorsComponent } from './juniors/juniors.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +25,14 @@ import { LadiesProductsComponent } from './ladies/ladies-products/ladies-product
     ProductListComponent,
     NavbarComponent,
     LadiesProductsComponent,
+    JuniorsComponent,
 
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
  providers: [],
   bootstrap: [AppComponent]
