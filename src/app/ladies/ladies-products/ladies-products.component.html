@@ -1,0 +1,15 @@
+<div class="col-lg-4 col-lg-4 col-lg-4 " id="products">
+    <div *ngFor="let product of products$ | async">
+        <img class="card-img-top" src="https://dressup05.herokuapp.com/api{{ product.image }}" alt="Card image cap" style="height: 400px;">
+        <div class="card ">
+            <img src="" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Product details</h5>
+                <p class="card-text">Type: {{ product.name }} </p>
+                <p class="card-text">Price: Ksh.{{ product.price }} </p>
+                <p class="card-text">Size: {{ product.size }} </p>
+                <p class="card-text">In-Stock:{{ product.stock }} </p>
+            </div>
+        </div><br>
+    </div>
+</div>
