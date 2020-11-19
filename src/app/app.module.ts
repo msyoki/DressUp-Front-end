@@ -12,6 +12,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { JuniorsComponent } from './juniors/juniors.component';
+import { AddPostComponent } from './add-post/add-post.component';
+import { PostDetailsComponent } from './post-details/post-details.component';
+import { PostListComponent } from './post-list/post-list.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { JuniorsComponent } from './juniors/juniors.component';
     ProductListComponent,
     NavbarComponent,
     JuniorsComponent,
+    AddPostComponent,
+    PostDetailsComponent,
+    PostListComponent,
 
   ],
   imports: [
