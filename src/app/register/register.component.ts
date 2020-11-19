@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RegisterService } from './register.service';
 import Swal from 'sweetalert2/dist/sweetalert2.js';  
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -11,7 +12,7 @@ import Swal from 'sweetalert2/dist/sweetalert2.js';
 export class RegisterComponent implements OnInit {
   register;
 
-  constructor(private registerService: RegisterService ){
+  constructor(private registerService: RegisterService,private router: Router ){
 
   }
 
@@ -28,8 +29,9 @@ export class RegisterComponent implements OnInit {
         Swal.fire({  
           icon: 'success',  
           title: this.register.username ,
-          text: ' is  successfully registered!'
+          text: ' is  successfully registered!',
         })  
+        this.router.navigate(["login"])  
       },
       error => {
         Swal.fire({  
