@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginService } from '../login/login.service'
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-landing-page',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private loginService:LoginService,private router: Router) { }
 
   ngOnInit(): void {
+  }
+  
+
+  logout(){
+    this.loginService.logout();
+    Swal.fire({  
+      icon: 'success',  
+      text: ' logged out!'
+    })
+    this.router.navigate(["login"]) 
+    
   }
 
 }
