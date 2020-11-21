@@ -8,6 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { MenComponent } from './men/men.component';
 import { LadiesComponent } from './ladies/ladies.component';
 import { JuniorsComponent } from './juniors/juniors.component';
+import { ProfileComponent } from './profile/profile.component';
 // import { LoginComponent } from './login/login.component';
 
 
@@ -18,6 +19,7 @@ const routes: Routes= [
   {path: 'men', component: MenComponent},
   {path: 'ladies', component: LadiesComponent},
   {path: 'juniors', component: JuniorsComponent},
+  {path: 'profile', component: ProfileComponent},
 ];
 
 @NgModule({
