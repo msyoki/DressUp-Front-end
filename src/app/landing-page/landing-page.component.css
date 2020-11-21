@@ -32,9 +32,9 @@
 
 @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-        background: #1C2331!important;
+        background: #596157!important;
     }
 }
-.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#454545}@media only screen and (max-width:768px){.navbar{background-color:#454545}}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color:#596157}}
 
 

@@ -3,6 +3,7 @@ import { LoginService } from '../login/login.service'
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
