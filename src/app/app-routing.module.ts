@@ -8,10 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { MenComponent } from './men/men.component';
 import { LadiesComponent } from './ladies/ladies.component';
 import { JuniorsComponent } from './juniors/juniors.component';
-
-import { PostListComponent } from './post-list/post-list.component';
-import { PostDetailsComponent } from './post-details/post-details.component';
-import { AddPostComponent } from './add-post/add-post.component';
+import { ProfileComponent } from './profile/profile.component';
 // import { LoginComponent } from './login/login.component';
 
 
@@ -22,10 +19,7 @@ const routes: Routes= [
   {path: 'men', component: MenComponent},
   {path: 'ladies', component: LadiesComponent},
   {path: 'juniors', component: JuniorsComponent},
-
-  { path: 'post', component: PostListComponent },
-  { path: 'post/:id', component: PostDetailsComponent },
-  { path: 'add', component: AddPostComponent }
+  {path: 'profile', component: ProfileComponent},
 ];
 
 @NgModule({

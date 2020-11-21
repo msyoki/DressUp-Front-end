@@ -19,6 +19,13 @@
 #lady1,#lady2,#lady3{
     width:90%;
     height:450px;
-    border-radius: 2px solid black;
+    border-radius: 2px solid #008DD5;
 
 }
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #008DD5!important;
+    }
+  }
+  .view,body,html{height:100%}.navbar{background-color: #008DD5}.page-footer,.top-nav-collapse{background-color:#008DD5}@media only screen and (max-width:768px){.navbar{background-color: #008DD5}}

@@ -1,77 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
-
-#header{
-    margin-left:30%;
-    /* width:50%;
-    height:15%; */
-}
-
 .container-fluid{
-    
+    color:white;
     width:100%;
     height:500px;
 }
-
-#two,#three{
-    
-    
-    
-    width:50%;
-    height:450px;
-    border-radius: 2px solid black;
-   
+#head{
+    width: 50%;
+    height: 400px;
+    position:center;
+    margin-left:250px;
 }
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    color:white;
-  }
-/* .bottom-right {
-    color:white;
+.centerladies{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-right:50px;
-  } */
-  .container p{
-      text-align: center;
-      padding-right:180px;
-     
-     
   }
-  
-h1{
-    text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    padding-top: 100px;
-    margin-left:50px;
-    margin-right: 10%;
-}
-p{
-    float:right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 20px;
-    margin-left:5%;
-    margin-right: 10%;
-}
-.card{
-    border:0px solid grey;
-    width:250px;
-    height:300px;
-}
-.card-footer{
-    background-color: white;
 
+#lady1,#lady2,#lady3{
+    width:90%;
+    height:450px;
+    border-radius: 2px solid #008DD5;
 }
-.btn-secondary{
-    color:grey;
-    margin-left:50px;
-    margin-bottom:5px;
-}
-.container img{
-   
-    width:200px;
-    height:250px;
-} 
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #008DD5!important;
+    }
+  }
+  .view,body,html{height:100%}.navbar{background-color: #008DD5}.page-footer,.top-nav-collapse{background-color:#008DD5}@media only screen and (max-width:768px){.navbar{background-color:#008DD5}}

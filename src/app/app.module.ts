@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MenComponent } from './men/men.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -11,10 +10,16 @@ import { ProductListComponent } from './landing-page/product-list/product-list.c
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { LadiesProductsComponent } from './ladies/ladies-products/ladies-products.component';
 import { JuniorsComponent } from './juniors/juniors.component';
-import { AddPostComponent } from './add-post/add-post.component';
-import { PostDetailsComponent } from './post-details/post-details.component';
-import { PostListComponent } from './post-list/post-list.component';
+import { JuniorProductsComponent } from './juniors/junior-products/junior-products.component';
+import { MenProductsComponent } from './men/men-products/men-products.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -26,10 +31,11 @@ import { PostListComponent } from './post-list/post-list.component';
     LoginComponent,
     ProductListComponent,
     NavbarComponent,
+    LadiesProductsComponent,
     JuniorsComponent,
-    AddPostComponent,
-    PostDetailsComponent,
-    PostListComponent,
+    JuniorProductsComponent,
+    MenProductsComponent,
+    ProfileComponent,
 
   ],
   imports: [
@@ -37,6 +43,7 @@ import { PostListComponent } from './post-list/post-list.component';
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule
   ],
  providers: [],
   bootstrap: [AppComponent]

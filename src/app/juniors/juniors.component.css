@@ -10,7 +10,7 @@
 #two,#three{
   width: 50%;
   height: 450px;
-  border-radius: 2px solid black;
+  border-radius: 2px solid #008DD5;
 }
 .bottom-right {
   position: absolute;
@@ -38,7 +38,7 @@ p{
   margin-right: 10%;
 }
 .card{
-  border: 0px solid grey;
+  border: 0px solid #008DD5;
   width: 250px;
   height: 300px;
 }
@@ -46,7 +46,7 @@ p{
   background-color: white;
 }
 .btn-secondary{
-  color: grey;
+  color: #008DD5;
   margin-left: 50px;
   margin-bottom: 5px;
 }
@@ -55,3 +55,10 @@ p{
   height: 250px;
   padding-top: -20px;
 }
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #008DD5!important;
+  }
+}
+.view,body,html{height:100%}.navbar{background-color: #008DD5}.page-footer,.top-nav-collapse{background-color:#008DD5}@media only screen and (max-width:768px){.navbar{background-color: #008DD5}}
