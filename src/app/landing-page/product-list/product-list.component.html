@@ -1,8 +1,8 @@
 
-<div class="grid view " >
-    <ng-container *ngFor="let product of products$ | async">
+<div class="grid view "  >
+    <ng-container id="product" *ngFor="let product of products$ | async">
 
-            <a href="#" class="zoom overlay" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
+            <a  href="#" class="zoom overlay" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
                 <span>{{ product.name }} <br><small>Kshs {{ product.price }} </small></span>
                 
             </a><br><br><br>

@@ -1,3 +1,10 @@
+@media (min-width:100px) and (max-width: 600px) {
+  #product{
+    width:75vw;
+    padding-left: 25%;
+  }
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr ));
