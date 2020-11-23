@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { MenComponent } from './men/men.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -15,6 +14,12 @@ import { LadiesProductsComponent } from './ladies/ladies-products/ladies-product
 import { JuniorsComponent } from './juniors/juniors.component';
 import { JuniorProductsComponent } from './juniors/junior-products/junior-products.component';
 import { MenProductsComponent } from './men/men-products/men-products.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -31,6 +36,7 @@ import { MenProductsComponent } from './men/men-products/men-products.component'
     JuniorsComponent,
     JuniorProductsComponent,
     MenProductsComponent,
+    ProfileComponent,
 
   ],
   imports: [
@@ -38,6 +44,7 @@ import { MenProductsComponent } from './men/men-products/men-products.component'
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule
   ],
  providers: [],
   bootstrap: [AppComponent]

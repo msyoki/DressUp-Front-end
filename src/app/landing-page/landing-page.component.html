@@ -27,7 +27,13 @@
             <a class="nav-link" href="#products" >Products</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#categories" >Categories</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#services" >Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#media" >Media</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contacts" >Contact Us</a>
@@ -35,20 +41,25 @@
         </ul>
 
         <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
+        <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
 
           <li class="nav-item">
-            <a routerLink="/login" routerLinkActive="active"type="button" class="btn btn-sm btn-info btn-rounded">
-              <strong>Sign In</strong>  
+            <a class="nav-link" routerLink="/login" routerLinkActive="active"type="button" >
+              <strong style="color: white;">Sign In</strong>  
             </a>
           </li>
           <li class="nav-item pl-2 pr-2">
-            <a routerLink="/register" routerLinkActive="active" type="button" class="btn btn-sm btn-info btn-rounded">
-                <strong >Sign Up</strong>  
+            <a class="nav-link" routerLink="/register" routerLinkActive="active" type="button" >
+                <strong style="color: white;">Sign Up</strong>  
+            </a>
+          </li>
+          <li class="nav-item pl-2 pr-2">
+            <a class="nav-link" (click)="logout()" type="button">
+                <strong style="color: white;">Log out</strong>  
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="/profile">
                 <i><img class="rounded-circle " src="https://us.123rf.com/450wm/asmati/asmati1706/asmati170606229/80944205-user-avatar-illustrazione-icona-segno-segno-icona-bianca-con-morbida-ombra-su-sfondo-trasparente.jpg?ver=6" id="avatar1" style="width: 40px;height: 35px;" ></i>
             </a>
           </li>
@@ -61,39 +72,56 @@
     </div>
 
 </nav>
-<!-- Image of landing page -->
-<div style="background-color: #b6b4b4;overflow: hidden;" >
+<div style="background-color: #5B8C5A;overflow: hidden;" >
     <div class="container">
-        <div class="row" style="padding-top: 100px;">
-            
-           
-       
-            <div class="col-md-4 text-center" >
-                <img src="./assets/img/shop.png" alt="" style="height:400px">
+        <div class="row" style="padding-top: 150px;">
+            <div class="col-md-4 text-center" > 
+                <img src="./assets/img/j.png" alt="" style="height:400px">
+                
             </div>
-       
             <div class="col-md-4 text-center" >
                 <h1 style="color:white;font-weight:bold;text-align:center">Karibu DressUp!</h1>
                 <h5 style="color:white;text-align:center"><strong>Shop N' Sell</strong> Fashion All Day Every Day!</h5>
                 <img src="./assets/img/rack.png" alt="" style="height:310px;width:100%" >
             </div>
-            <div class="col-md-4 text-center" > 
-                <img src="./assets/img/j.png" alt="" style="height:400px">
-                
+            <div class="col-md-4 text-center" >
+                <img src="./assets/img/shop.png" alt="" style="height:400px">
             </div>
         </div>
     </div>
-            
-    
+
+</div>
+<br id="categories" >
+
+<div class="text-center">
+
+    <div class="container" style="margin-top: 5%;margin-bottom: 5%">
+        <div class="row divider-new version-2 mt-5 mb-0" >
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" id="services" style="color: #5B8C5A;">Categories</h4>
+        </div><br><br>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-2 mb-2">
+                <a ><h5 routerLink="/men" routerLinkActive="active"  style="color: #596157;"> Gents</h5></a>
+            </div>
+            <div class="col-md-2 mb-2">
+                <a ><h5 routerLink="/ladies" routerLinkActive="active"  style="color: #596157;">Ladies</h5></a>
+            </div>
+            <div class="col-md-2 mb-2">
+                <a ><h5 routerLink="/juniors" routerLinkActive="active"  style="color: #596157;">Kids</h5></a>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 </div>
 
   <!-- Navbar -->
-<main style="margin-top: 8%;">
+<main style="margin-top: 4%;">
 
     <div class="container-xl">
 
         <!-- Section main -->
-        <section style="padding: 40px;" >
+        <section >
             <div class="container">
 
                 <div class="row " >
@@ -114,15 +142,15 @@
                             <!--/Indicators-->
                             <!--Slides-->
                             <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item">
+                                <div routerLink="/men" routerLinkActive="active" class="carousel-item" >
                                     <div class="view" >
-                                        <img class="d-block" src="https://i.pinimg.com/564x/ca/6e/65/ca6e654d078a04ea3ace68f2c2167cf8.jpg" alt="First slide" style="width:100%;height:600px;">
+                                        <img   class="d-block" src="https://i.pinimg.com/564x/ca/6e/65/ca6e654d078a04ea3ace68f2c2167cf8.jpg" alt="First slide" style="width:100%;height:600px;">
                                         <a href="#!">
                                             <div class="mask rgba-black-light waves-effect waves-light"></div>
                                         </a>
                                     </div>
-                                    <div class="carousel-caption text-primary">
-                                        <h3 class="h3-responsive" style="color: white;font-weight:bold">Get cool deals at</h3>
+                                    <div  class="carousel-caption text-primary">
+                                        <h3 class="h3-responsive" style="color: white;font-weight:bold">Buy local designs at</h3>
                                         <p style="color: white;font-weight:bold">Dress-Up</p>
                                     </div>
                                 </div>
@@ -135,8 +163,8 @@
                                         </a>
                                     </div>
                                     <div class="carousel-caption">
-                                        <h3 class="h3-responsive" style="color: white;font-weight:bold">Get great deals at</h3>
-                                        <p style="color: white;font-weight:bold">Dress-Up</p>
+                                        <h3 class="h3-responsive" style="color: white;font-weight:bold">Sell your designs at</h3>
+                                        <p style="color: white;font-weight:bold">DressUp</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item ">
@@ -148,8 +176,8 @@
                                         </a>
                                     </div>
                                     <div class="carousel-caption text-dark">
-                                        <h3 class="h3-responsive"  style="color: white;font-weight:bold">Get awesome deals at</h3>
-                                        <p style="color: white;font-weight:bold"> Dress-Up</p>
+                                        <h3 class="h3-responsive"  style="color: white;font-weight:bold">Fresh look at</h3>
+                                        <p style="color: white;font-weight:bold"> DressUp</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item active">
@@ -161,8 +189,8 @@
                                         </a>
                                     </div>
                                     <div class="carousel-caption text-dark">
-                                        <h3 class="h3-responsive"  style="color: white;font-weight:bold">Get awesome deals at</h3>
-                                        <p style="color: white;font-weight:bold"> Dress-Up</p>
+                                        <h3 class="h3-responsive"  style="color: white;font-weight:bold">Awesome deals at</h3>
+                                        <p style="color: white;font-weight:bold"> DressUp</p>
                                     </div>
                                 </div>
                             </div>
@@ -184,40 +212,26 @@
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-6 ">
-
-                        <h6 class="red text-white text-center py-2 mb-4">Popular category</h6>
-
-                        <div  routerLink="/men" routerLinkActive="active" class="media btn" style="padding: 20px;">
-                            <div class="media-body">
-                                
-                                <p class="text-grey-dark mb-2" style="cursor:pointer;"><strong>Gents</strong></p>
+                    <div  class="col-md-6" id="services">
+                        <div class="container" style="padding-top:20%">
+                            <div class=" divider-new version-2 mt-5 mb-0">
+                                <h5 class="text-uppercase font-weight-bold deep-grey-text mr-3"  style="color: #5B8C5A;">Services Offered</h5>
+                            </div><br><br>
+                           <div class="text-center ">
+                            <a href="#products" style="color: #596157;"><h3 >Purchase</h3></a>
+                                <h6>Get the best deals from local fashion designers and wholesellers </h6>
                             </div>
-                            <img class="d-flex ml-3" src="https://i.pinimg.com/564x/14/99/3b/14993b788fd96d2be27516bd917b8ceb.jpg" alt="Generic placeholder image"  width="100">
-                        </div>
-
-                        <hr>
-
-                        <div  routerLink="/ladies" routerLinkActive="active"  class="media btn"style="padding: 20px;">
-                            <div class="media-body" >
-                                <p  class="text-grey-dark mb-2" style="cursor:pointer;"><strong>Ladies</strong></p>
+                            <div class="text-center">
+                                <i>"Buy Kenya,build Kenya"</i>
+                            </div><br><br>
+                            <div class="text-center">
+                                <a href="#sell" style="color: #596157;"><h3 >Sell</h3></a>
+                                <h6>Sell your designs through a wide scope of interested buyers by posting</h6>
                             </div>
-                            <img class="d-flex ml-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwMVcY1ozWWKBfm0F0Hv__HdTsy1CUvtLetg&usqp=CAU" alt="Generic placeholder image" width="100">
-                        </div>
-
-                        <hr>
-
-                        <div  routerLink="/juniors" routerLinkActive="active" class="media btn" style="padding: 20px;">
-                            <div class="media-body">
-                                <p class="text-grey-dark mb-2" style="cursor:pointer;"><strong>Kids</strong></p>
-                            </div>
-                            <img class="d-flex ml-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSs10imPBj6ZQ4FSrKQKgJB8vXZOjObxyTWww&usqp=CAU" alt="Generic placeholder image" width="100">
-                        </div>
-
+                        </div><br><br>
+                   
                     </div>
-                    <!-- Grid column -->
-
-                    
+                    <!-- Grid column --> 
 
                 </div>
             </div>
@@ -226,13 +240,14 @@
         <div class="overlay">
             <div id="firstDiv"></div>
             <div id="secondDiv"></div>
-        </div><br>
+        </div>
         <!-- Section deal -->
-        <section class="py-2 my-4">
+        <br id="products">
+        <section class="py-2 my-4"   style="padding-top: 20%;">
         <div class="divider-new version-2 mt-5 mb-0">
-            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">PRODUCTS</h4>
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" style="color: #5B8C5A;">PRODUCTS</h4>
         </div><br><br>
-        <div id="products">
+        <div>
             <app-product-list></app-product-list>
   
         </div><br>
@@ -369,7 +384,7 @@
         <!-- Section deal -->
 
         <div class="divider-new version-2 mt-5 mb-0">
-            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" id="services">Our Services</h4>
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" id="services" style="color: #5B8C5A;">Services Offered</h4>
         </div>
 
         <section class="py-2 my-4">
@@ -394,95 +409,114 @@
             </div>
 
         </section>
-        <div class="divider-new version-2 mt-4 mb-0">
-            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">MEDIA</h4>
+        <br id="media">
+        <div class="divider-new version-2 mt-4 mb-0" style="padding-top:5%;">
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" style="color: #5B8C5A;">MEDIA</h4>
         </div><br>
 
-        <div><iframe width="250" height="200" style="border-radius: 5px;" src="https://www.youtube.com/embed/Ea2cAp5LtM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+        <div>
+            <div class="row" style="padding-top:5%;padding-bottom:10%">
+                <div class="col-md-3">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/PtJ9t9TvqNY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+                <div class="col-md-3">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/UnkQTHb5lV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-3">
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/3B2G87-Tcuw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-3">
+                    <iframe width="250" height="200"  src="https://www.youtube.com/embed/Ea2cAp5LtM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            
 
         </div>
         <!-- Section shelf -->
         <div class="divider-new version-2 mt-4 mb-0">
-            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">Choose region</h4>
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" style="color: #5B8C5A;">Choose region</h4>
         </div>
 
         <!-- Section services -->
-        <section class="py-2 mt-4 mb-0 mb-lg-4">
+        <section class="py-2 mt-4 mb-0 mb-lg-4" >
 
-            <ul class="d-flex flex-row flex-wrap justify-content-start justify-content-lg-around list-unstyled">
+            <ul class="d-flex flex-row flex-wrap justify-content-start justify-content-lg-around list-unstyled" style="padding-top: 10%;padding-bottom: 10%;">
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Nairobi</span> </a>
+                    <a href="/" class="text-reset"><span>Nairobi</span> </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Nakuru</span>
+                    <a href="/" class="text-reset"><span>Nakuru</span>
                     </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Kisumu</span></a>
+                    <a href="/" class="text-reset"><span>Kisumu</span></a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Mombasa</span>
+                    <a href="/" class="text-reset"><span>Mombasa</span>
                     </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Eldoret</span> </a>
+                    <a href="/" class="text-reset"><span>Eldoret</span> </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Naivasha</span>
+                    <a href="/" class="text-reset"><span>Naivasha</span>
                     </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Garissa</span>
+                    <a href="/" class="text-reset"><span>Garissa</span>
                     </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"><span>Diani</span> </a>
+                    <a href="/" class="text-reset"><span>Diani</span> </a>
                 </li>
                 <li class="mb-2 mx-2">
-                    <a href="#" class="text-reset"> <i class="mr-3 fas fa-ellipsis-h"></i> <span>More regions</span> </a>
+                    <a href="/" class="text-reset"> <i class="mr-3 fas fa-ellipsis-h"></i> <span>More regions</span> </a>
                 </li>
             </ul>
 
         </section>
-        <!-- Section services -->
-
-    </div>
-    <div class="divider-new version-2 mt-3 mb-0 container-fluid">
-        <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3">What people are saying</h4>
-    </div>
-    <section class="py-2 my-4 testimonials text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" alt="" style="height: 150px;width:170px;">
-                        <h5>Test User1</h5>
-                        <p class="font-weight-light mb-0">"This is one of the most popular platforms to buy and sell items privately, so there is plenty of visibility of you are selling, and there are plenty of options if you are buying."</p>
+            <!-- Section services -->
+        <br id="sell">
+        <div class="divider-new version-2 mt-3 mb-0 container-fluid"  >
+            <h4 class="text-uppercase font-weight-bold deep-grey-text mr-3" style="color: #5B8C5A;">How to be a seller</h4>
+        </div>
+        <section class="py-2 my-4 testimonials text-center" >
+            <div class="container" style="padding-top:5%;padding-bottom:10%">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid " src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/login_account_enter_door-512.png" alt="" style="height: 80px;width:100px;"><br><br>
+                            <h5>1. Signup an account</h5>
+                            <p class="font-weight-light mb-0">"Register an account,select signup on the navbar section and follow through,once signed up log in and update your profile"</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU" alt="" style="height: 150px;width:170px;">
-                        <h5>Test User2</h5>
-                        <p class="font-weight-light mb-0 ">"Makes things simple, directly speaking to fellow users using the app is much faster than the old way of emails. I 've been extremely lucky to deal with amazing people who've responded or reached out, but always be safe and use
-                            your own judgment when buying and meeting up. "</p>
+                    <div class="col-lg-4">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid " src="https://image.flaticon.com/icons/png/512/1628/1628656.png" alt="" style="height: 80px;width:100px;"><br><br>
+                            <h5>2.Post your products</h5>
+                            <p class="font-weight-light mb-0 ">"You can access the post featurein your profile page,post as many products as you wish,ensure all the product details are included "</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 ">
-                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 ">
-                        <img class="img-fluid rounded-circle mb-3 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKq2shLLLOiPE232nkagOQ0U0DGdZ-BRgjow&usqp=CAU " alt=" " style="height: 150px;width:170px;">
-                        <h5>Test User3</h5>
-                        <p class="font-weight-light mb-0 ">"Thanks so much for making these free resources available to us! "
-                        </p>
+                    <div class="col-lg-4 ">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0 ">
+                            <img class="img-fluid " src="https://banner2.cleanpng.com/20180630/sri/kisspng-computer-icons-sales-stock-photography-saldi-5b37d3fc353b91.6333439215303854042181.jpg" alt=" " style="height: 80px;width:100px;"><br><br>
+                            <h5>3.Buyers get in touch</h5>
+                            <p class="font-weight-light mb-0 ">"Ensure your profile details are updated once singned up for an account so buyers can get in touch 
+                                'easy-peasy' "
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </div>
+    
 </main>
 <!-- Footer -->
-<footer class="page-footer font-small elegant-color ">
+<footer class="page-footer font-small" id="contacts">
 
     <div class="color-primary ">
         <div class="container ">
@@ -574,13 +608,13 @@
 
                 <ul class="list-unstyled foot-desc ">
                     <li class="mb-2 ">
-                        <a href="#! ">Men Clothes</a>
+                        <a routerLink="/men" routerLinkActive="active">Men Clothes</a>
                     </li>
                     <li class="mb-2 ">
-                        <a href="#! ">Women Clothes</a>
+                        <a routerLink="/ladies" routerLinkActive="active">Women Clothes</a>
                     </li>
                     <li class="mb-2 ">
-                        <a href="#! ">Kids Clothes</a>
+                        <a routerLink="/juniors" routerLinkActive="active">Kids Clothes</a>
                     </li>
                 </ul>
 
@@ -601,7 +635,7 @@
                         <a href="#! ">Your Account</a>
                     </li>
                     <li class="mb-2 ">
-                        <a href="#! ">Become an Affiliate</a>
+                        <a href="#sell">Become Seller</a>
                     </li>
                     <li class="mb-2 ">
                         <a href="#! ">Help</a>
@@ -617,7 +651,7 @@
             <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4 ">
 
                 <!-- Links -->
-                <h5 id="contacts ">Contacts</h5>
+                <h5 >Contacts</h5>
                 <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60 ">
 
                 <ul class="fa-ul foot-desc ml-4 ">
