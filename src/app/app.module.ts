@@ -11,6 +11,10 @@ import { ProductListComponent } from './landing-page/product-list/product-list.c
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { LadiesProductsComponent } from './ladies/ladies-products/ladies-products.component';
+import { JuniorsComponent } from './juniors/juniors.component';
+import { JuniorProductsComponent } from './juniors/junior-products/junior-products.component';
+import { MenProductsComponent } from './men/men-products/men-products.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +26,18 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     NavbarComponent,
     ProductListComponent,
+    NavbarComponent,
+    LadiesProductsComponent,
+    JuniorsComponent,
+    JuniorProductsComponent,
+    MenProductsComponent,
+
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
  providers: [],
   bootstrap: [AppComponent]

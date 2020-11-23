@@ -1,0 +1,11 @@
+<div class="grid" >
+    <ng-container *ngFor="let product of products$ | async">
+        <a href="#" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
+            <span>{{ product.name }} <br>
+                <small>size: {{ product.size }}</small><br>
+                <small>Price:  {{ product.price }} Kshs</small><br>
+            </span>
+            
+        </a><br><br><br>
+    </ng-container>
+</div>

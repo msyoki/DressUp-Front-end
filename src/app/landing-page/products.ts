@@ -1,3 +1,4 @@
+
 export interface Product{
     image: string;
     name: string;
@@ -5,5 +6,5 @@ export interface Product{
     stock: number;
     size: string;
     category: string;
-    profile: string;
+    username: string;
 }

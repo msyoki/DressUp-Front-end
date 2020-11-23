@@ -9,14 +9,15 @@ import { Product } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-  products$:Observable<Product[]>;
+  products$: Observable<Product[]>;
 
-  constructor( private productsService:ProductsService ) { }
+  constructor( private productsService: ProductsService ) { }
 
   ngOnInit(): void {
-    this.getProducts()
+    this.getProducts();
   }
 
+  // tslint:disable-next-line: typedef
   public getProducts() {
     this.products$ = this.productsService.getProducts();
   }
