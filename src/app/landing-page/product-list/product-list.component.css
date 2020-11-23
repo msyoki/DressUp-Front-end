@@ -1,3 +1,10 @@
+@media (min-width:100px) and (max-width: 600px) {
+  #product{
+    width:75vw;
+    padding-left: 25%;
+  }
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr ));
@@ -22,7 +29,11 @@ span:hover {
 }
 
 span {
+<<<<<<< HEAD
   background-color: #008DD5;
+=======
+  background-color: #596157;
+>>>>>>> e54d37a3cdb4603862f61b0db5983ff39700cd21
   color: #fff;
 }
 a{

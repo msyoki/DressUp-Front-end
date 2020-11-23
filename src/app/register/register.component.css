@@ -1,4 +1,13 @@
 .card-header{
-    background-color: #6EB4D1;
+    background-color: #596157;
     color: white;
+}
+
+.btn{
+    background-color: #5B8C5A;
+    color: white;
+}
+
+a{
+    color: #5B8C5A;
 }
