@@ -4,7 +4,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="/" >
-            <strong>DressUp</strong>
+            <img class="rounded" src="../assets/images/ress_Up_free-file__1_-removebg-preview.png" id="logo"> 
         </a>
 
         <!-- Collapse -->
@@ -18,12 +18,33 @@
             <!-- Left -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Home
+                    <strong><a id="home" style="color:white;">Home
               <span class="sr-only">(current)</span>
-            </a>
+            </a></strong>
 
           </li>
-          <li class="nav-item">
+          <br>
+        
+        <div class="dropdown">
+            <strong><a class="left" style="color:white;">Menu</a></strong>
+            <div class="dropdown-content">
+              <a  href="#services" >Our Services</a>
+              <a  href="#media" >Media</a>
+              <a  href="#contacts" >Contact Us</a>
+            </div>
+          </div>
+          <br>
+
+          <div class="dropdown">
+            <strong><a class="left" style="color:white;">Categories</a></strong>
+            <div class="dropdown-content">
+              <a routerLink="/men" routerLinkActive="active" >Gents</a>
+              <a routerLink="/ladies" routerLinkActive="active" >Ladies</a>
+              <a routerLink="/juniors" routerLinkActive="active" >Juniors</a>
+            </div>
+          </div>
+        </ul>
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#products" >Products</a>
           </li>
           <li class="nav-item">
@@ -38,7 +59,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#contacts" >Contact Us</a>
           </li>
-        </ul>
+        </ul> -->
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
