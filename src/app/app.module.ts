@@ -29,6 +29,7 @@ import { ProfileComponent } from './profile/profile.component';
     LandingPageComponent,
     RegisterComponent,
     LoginComponent,
+    NavbarComponent,
     ProductListComponent,
     NavbarComponent,
     LadiesProductsComponent,
