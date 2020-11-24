@@ -1,39 +1,98 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
 
-    
-    <a class="navbar-brand" href="/" >
-      <strong>DressUp</strong>
-    </a>
+      <!-- Brand -->
+      <a class="navbar-brand" href="/" >
+          <img class="rounded" src="../assets/images/pngegg.png" id="logo">
+          <strong>DressUp</strong> 
+      </a>
+      <!-- <a class="navbar-brand" href="/" >
+        <strong>DressUp</strong>
+    </a> -->
 
-    <!-- Collapse -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Links -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <!-- Left -->
+          <!-- Left -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/">Home
+                  <strong><a id="home"href="/"  style="color:white;">Home
             <span class="sr-only">(current)</span>
-          </a>
+          </a></strong>
+
+        </li>
+        <br>
+      
+      <div class="dropdown">
+          <strong><a class="left" style="color:white;">Menu</a></strong>
+          <div class="dropdown-content">
+            <a  href="#services" >Our Services</a>
+            <a  href="#media" >Media</a>
+            <a  href="#contacts" >Contact Us</a>
+          </div>
+        </div>
+        <br>
+
+        <div class="dropdown">
+          <strong><a class="left" style="color:white;">Categories</a></strong>
+          <div class="dropdown-content">
+            <a routerLink="/men" routerLinkActive="active" >Gents</a>
+            <a routerLink="/ladies" routerLinkActive="active" >Ladies</a>
+            <a routerLink="/juniors" routerLinkActive="active" >Juniors</a>
+          </div>
+        </div>
+      </ul>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#products" >Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#products" >Products</a>
+          <a class="nav-link" href="#categories" >Categories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#services" >Our Services</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#media" >Media</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#contacts" >Contact Us</a>
+        </li>
+      </ul> -->
+
+      <!-- Right -->
+      <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" routerLinkActive="active"type="button" >
+            <strong style="color: white;">Sign In</strong>  
+          </a>
+        </li>
+        <li class="nav-item pl-2 pr-2">
+          <a class="nav-link" routerLink="/register" routerLinkActive="active" type="button" >
+              <strong style="color: white;">Sign Up</strong>  
+          </a>
+        </li>
+        <li class="nav-item pl-2 pr-2">
+          <a class="nav-link" (click)="logout()" type="button">
+              <strong style="color: white;">Log out</strong>  
+          </a>
+        </li>
+        <li>
+          <a href="/profile">
+              <i><img class="rounded-circle " src="https://us.123rf.com/450wm/asmati/asmati1706/asmati170606229/80944205-user-avatar-illustrazione-icona-segno-segno-icona-bianca-con-morbida-ombra-su-sfondo-trasparente.jpg?ver=6" id="avatar1" style="width: 40px;height: 35px;" ></i>
+          </a>
         </li>
       </ul>
 
-    </div>
 
- </div>
+      </div>
+
+
+  </div>
+
 </nav>
