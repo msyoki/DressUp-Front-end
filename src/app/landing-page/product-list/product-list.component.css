@@ -1,7 +1,12 @@
-@media (min-width:100px) and (max-width: 600px) {
-  #product{
-    width:75vw;
-    padding-left: 25%;
+@media only screen and (max-width:768px) {
+  .prakesh {
+      height: unset;
+      width: 50vw;
+      margin: auto;
+  }
+  span {
+      text-align: center;
+      padding-left: 0%;
   }
 }
 
