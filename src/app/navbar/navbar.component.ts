@@ -17,6 +17,7 @@ export class NavbarComponent implements OnInit {
   }
   logout(){
     this.loginService.logout();
+
     Swal.fire({  
       icon: 'success',  
       text: ' logged out!'
@@ -26,3 +27,4 @@ export class NavbarComponent implements OnInit {
   }
 
 }
+
