@@ -30,6 +30,7 @@
 }
 .dropdown-content {
   color:  #5B8C5A;
+  font-weight:bold;
   display: none;
   position: absolute;
   background-color: #ffffff;
@@ -40,8 +41,8 @@
 
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: #596157;
+  padding: 10px 14px;
   text-decoration: none;
   display: block;
 }

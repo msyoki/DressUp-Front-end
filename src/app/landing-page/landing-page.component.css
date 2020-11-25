@@ -1,97 +1,101 @@
 #logo{
-    width:40px;
-    height:100%;
-   
-    color: transparent;
+  width:40px;
+  height:100%;
+ 
+  color: transparent;
 
 }
 #app{
-    padding-left:0%;
-    /* font-style:italic; */
-    font-family: 'Anton', sans-serif;
-    color: white;
-    
+  padding-left:0%;
+  /* font-style:italic; */
+  font-family: 'Anton', sans-serif;
+  color: white;
+  
 }
 #home{
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .left {
-    margin-top:5px;
-    text-decoration-color: white;
-   padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  
-  .dropdown{
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    color:  #5B8C5A;
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  
-  .dropdown-content a:hover {background-color: white;}
-  
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
- 
-  
+  margin-top:5px;
+  text-decoration-color: white;
+ padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  color:  #5B8C5A;
+  font-weight:bold;
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: #596157;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: white;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
 
 
 .zoom {
-    padding-top: 50px;
-    transition: transform .2s;
-    /* Animation */
-    margin: 0 auto;
+  padding-top: 50px;
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
 }
 
 .zoom:hover {
-    transform: scale(1.5);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
 /* .card,
 .card-footer {
-    width: 150px;
-    height: 100px;
+  width: 150px;
+  height: 100px;
 } */
 
 #avatar1 {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 #avatar {
-    margin-bottom: 15px;
-    width: 50px;
-    height: 50px;
-    margin-left: 75px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  margin-left: 75px;
 }
 
 
 @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background:  #5B8C5A!important;
-    }
+  .navbar:not(.top-nav-collapse) {
+      background:  #5B8C5A!important;
+  }
 }
-.view,body,html{height:100%}.navbar{background-color: #5B8C5A}.page-footer,.top-nav-collapse{background-color: #5B8C5A}@media only screen and (max-width:768px){.navbar{background-color: #5B8C5A}}
+.view,body,html{height:100%}.navbar{background-color: #5B8C5A}.top-nav-collapse{background-color: #5B8C5A}@media only screen and (max-width:768px){.navbar{background-color: #5B8C5A}}
 
+.page-footer{
+    background-color:  #596157;
+}

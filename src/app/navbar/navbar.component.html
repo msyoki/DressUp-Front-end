@@ -24,10 +24,11 @@
       
         <div class="dropdown">
           <strong><a class="left" style="color:white;font-weight:bold">Menu</a></strong>
-          <div class="dropdown-content" style="font-weight: bold;">
-            <a  href="#services" style="color:  #596157;">Our Services</a>
-            <a  href="#media" style="color:  #596157;">Media</a>
-            <a  href="#contacts" style="color:  #596157;">Contact Us</a>
+          <div class="dropdown-content" >
+            <a  href="#services" >Our Services</a>
+            <a  href="#media" >Media</a>
+            <a  href="#contacts" >Contact Us</a>
+            <a  href="http://127.0.0.1:8000/login/?next=/" >Admin Dashboard</a>
           </div>
         </div>
         <br>
@@ -35,9 +36,9 @@
         <div class="dropdown">
           <strong><a class="left" style="color:white;font-weight:bold">Categories</a></strong>
           <div class="dropdown-content" style="font-weight: bold;">
-            <a routerLink="/men" routerLinkActive="active" style="color:  #596157;" >Gents</a>
-            <a routerLink="/ladies" routerLinkActive="active" style="color:  #596157;">Ladies</a>
-            <a routerLink="/juniors" routerLinkActive="active" style="color:  #596157;">Juniors</a>
+            <a routerLink="/men" routerLinkActive="active"  >Gents</a>
+            <a routerLink="/ladies" routerLinkActive="active" >Ladies</a>
+            <a routerLink="/juniors" routerLinkActive="active" >Juniors</a>
           </div>
         </div>
       </ul>
@@ -62,20 +63,22 @@
       <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
 
         <li class="nav-item">
-          <a class="nav-link" routerLink="/login" routerLinkActive="active"type="button" >
-            <strong style="color: white;">Sign In</strong>  
-          </a>
-        </li>
-        <li class="nav-item pl-2 pr-2">
-          <a class="nav-link" routerLink="/register" routerLinkActive="active" type="button" >
-              <strong style="color: white;">Sign Up</strong>  
-          </a>
-        </li>
-        <li class="nav-item pl-2 pr-2">
-          <a class="nav-link" (click)="logout()" type="button">
-              <strong style="color: white;">Log out</strong>  
-          </a>
-        </li>
+ 
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" routerLinkActive="active"type="button" >
+              <strong style="color: white;">Log In</strong>  
+            </a>
+          </li>
+          <li class="nav-item pl-2 pr-1">
+            <a class="nav-link" routerLink="/register" routerLinkActive="active" type="button" >
+                <strong style="color: white;">Register</strong>  
+            </a>
+          </li>
+          <li class="nav-item pl-2 pr-1">
+            <a class="nav-link" (click)="logout()" type="button">
+                <strong style="color: white;">Log out</strong>  
+            </a>
+          </li>
         <li>
           <a href="/profile">
               <i><img class="rounded-circle " src="https://us.123rf.com/450wm/asmati/asmati1706/asmati170606229/80944205-user-avatar-illustrazione-icona-segno-segno-icona-bianca-con-morbida-ombra-su-sfondo-trasparente.jpg?ver=6" id="avatar1" style="width: 40px;height: 35px;" ></i>
