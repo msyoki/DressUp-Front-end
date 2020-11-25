@@ -1,3 +1,4 @@
+
 #logo{
     width:40px;
     height:100%;   
@@ -47,6 +48,7 @@
   
   .dropdown:hover .dropdown-content {display: block;}
 
+
 .container-fluid{
     color:white;
     width:100%;
@@ -58,6 +60,9 @@
     position:center;
     margin-left:250px;
 }
+#men{
+    padding-top:120px;
+  }
 .centerladies{
     position: absolute;
     top: 50%;
