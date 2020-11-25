@@ -1,5 +1,53 @@
 
+#logo{
+    width:40px;
+    height:100%;   
+    color: transparent;
+}
+#mens {
+    margin-top: 40px;
+}
+#app{
+    padding-left:0%;
+}
+#home{
+    margin-top: 20px;
+}
+.left {
+    margin-top:5px;
+    text-decoration-color: white;
+   padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #048243;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
   
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
 
 .container-fluid{
     color:white;
@@ -48,8 +96,7 @@ p{
 #lady1,#lady2,#lady3{
     width:90%;
     height:450px;
-    border-radius: 2px solid black;
-
+    border-radius: 2px solid #008DD5;
 }
 
 
@@ -58,4 +105,4 @@ p{
         background: #596157!important;
     }
   }
-  .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color:#596157}}
+  .view,body,html{height:100%}.navbar{background-color: #596157}.page-footer,.top-nav-collapse{background-color: #596157}@media only screen and (max-width:768px){.navbar{background-color:#596157}}
