@@ -7,6 +7,9 @@
   width: 100%;
   height: 400px;
 }
+#juniors{
+  padding-top:120px;
+}
 #two,#three{
   width: 50%;
   height: 450px;
