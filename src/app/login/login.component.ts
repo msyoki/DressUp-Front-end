@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
           icon: 'success',  
           text: ' successfully logged in!'
         })
-        this.router.navigate([""])  
+        this.router.navigate(["newproduct"])  
       },
       error => {
         Swal.fire({  
