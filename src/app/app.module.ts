@@ -16,6 +16,7 @@ import { JuniorProductsComponent } from './juniors/junior-products/junior-produc
 import { MenProductsComponent } from './men/men-products/men-products.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProfileComponent } from './profile/profile.component';
+import { NewproductComponent } from './newproduct/newproduct.component';
 
 
 
@@ -37,6 +38,7 @@ import { ProfileComponent } from './profile/profile.component';
     JuniorProductsComponent,
     MenProductsComponent,
     ProfileComponent,
+    NewproductComponent,
 
   ],
   imports: [

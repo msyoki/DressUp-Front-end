@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+.container{
+    text-align:center;
+}
+/* h1{
+    font-family: 'Fondamento', cursive;
+}
+label{
+    font-family: 'Fondamento', cursive;
+}
+button{
+    font-family: 'Fondamento', cursive;
+} */
+h1{
+    padding-top:20px;
+}
+.btn{
+background:#292b2c;
+color: white;
+}

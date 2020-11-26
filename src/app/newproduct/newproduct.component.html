@@ -1,0 +1,45 @@
+<div class="container">
+    <h1>Post Your Product</h1>
+    <label>
+        Image:
+        <input type="file" (change)="OnImageChanged($event)"/>
+    </label>
+    <br/>
+    <label>
+        Name:
+        <input type="text" class="form-control" placeholder="i.e shirt,dress.."(change)="OnNameChanged($event)"/>
+    </label>
+    <br/>
+    <label>
+        Price:
+        <input type="text" class="form-control" placeholder="i.e 2000" (change)="OnPriceChanged($event)"/>
+    </label>
+    <br/>
+    <label>
+        Stock:
+        <input type="text" class="form-control" placeholder="i.e 200" (change)="OnStockChanged($event)"/>
+    </label>
+    <br/>
+    <label>
+        Size:
+        <input type="text" class="form-control" placeholder="i.e 35" (change)="OnSizeChanged($event)"/>
+    </label>
+    <br/>
+    <!-- <select name="demo" id="#">
+        <option selected="selected" value="one">Option 1</option>
+        <option value="two">Option 2</option>
+        <option value="three">Option 3</option>
+        </select> -->
+    <label>
+        Category:
+        <input type="text" class="form-control" placeholder="i.e Men,Ladies,kids" (change)="OnCategoryChanged($event)"/>
+    </label>
+    <br/>
+    <label>
+        Profile:
+        <input type="text" class="form-control" placeholder="i.e Your Name" (change)="OnProfileChanged($event)"/>
+    </label>
+    <br/>
+    <button class="btn " (click)="newProduct()">New Product</button>
+    <a href="/" class="btn btn-success">Back home</a>
+    </div>
