@@ -23,7 +23,7 @@ export class LandingPageComponent implements OnInit {
       icon: 'success',  
       text: ' logged out!'
     })
-    this.router.navigate([""]) 
+    // this.router.navigate(["login"]) 
     
   }
 
