@@ -15,6 +15,10 @@
 #home{
   margin-top: 20px;
 }
+
+a{
+  text-decoration: none;
+}
 .left {
   margin-top:5px;
   text-decoration-color: white;
@@ -91,8 +95,13 @@
 
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
-      background:  #5B8C5A!important;
+      background:  #596157!important;
   }
 }
   .view,body,html{height:100%}.navbar{background-color
-    :#5B8C5A}.page-footer,.top-nav-collapse{background-color:#5B8C5A}@media only screen and (max-width:768px){.navbar{background-color:#5B8C5A}}
+    :#596157}.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color:#5B8C5A}}
+
+
+.page-footer{
+  background-color: #5B8C5A;
+}

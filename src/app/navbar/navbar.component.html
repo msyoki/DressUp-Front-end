@@ -61,17 +61,14 @@
 
       <!-- Right -->
       <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
-
-        <li class="nav-item">
-          <li class="nav-item pl-2 pr-1">
-            <a class="nav-link" (click)="logout()" type="button">
-              <strong ><a href="/" style="color: white;">Log out</a></strong> 
-            </a>
-          </li>
-        <li>
-          <a href="/profile">
-              <i><img class="rounded-circle " src="https://us.123rf.com/450wm/asmati/asmati1706/asmati170606229/80944205-user-avatar-illustrazione-icona-segno-segno-icona-bianca-con-morbida-ombra-su-sfondo-trasparente.jpg?ver=6" id="avatar1" style="width: 40px;height: 35px;" ></i>
-          </a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="fas fa-user"></i><strong>Account</strong></a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+            <a  (click)="logout()" href="/"><strong>Log out</strong></a>
+            <!-- <a class="dropdown-item" routerLink="/register" routerLinkActive="active"><strong>Register</strong></a> -->
+          </div>
         </li>
       </ul>
       </div>

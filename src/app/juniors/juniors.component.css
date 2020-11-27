@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
 
 #header{
   margin-left:30%;
@@ -67,4 +67,8 @@ p{
       background: #596157!important;
   }
 }
-.view,body,html{height:100%}.navbar{background-color: #596157}.page-footer,.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color: #596157}}
+.view,body,html{height:100%}.navbar{background-color: #596157}.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color: #596157}} */
+
+.page-footer{
+  background-color: #5B8C5A;
+}
