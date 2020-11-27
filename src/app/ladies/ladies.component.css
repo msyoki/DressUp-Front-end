@@ -1,4 +1,4 @@
-#ladies{
+ #ladies{
   padding-top:120px;
 }
 
@@ -14,7 +14,7 @@ h1{
     width:100%;
     height:500px;
     /* margin-left:10px; */
-    
+ 
 }
 
 #head{
@@ -80,6 +80,8 @@ h1{
         background: #596157!important;
     }
   }
-  .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color:#596157}}
+  .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.top-nav-collapse{background-color:#596157}@media only screen and (max-width:768px){.navbar{background-color:#596157}}
 
-  
+.page-footer{
+  background-color: #5B8C5A;
+}

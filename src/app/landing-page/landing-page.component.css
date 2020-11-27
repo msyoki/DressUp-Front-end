@@ -54,7 +54,9 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 
-
+a{
+  text-decoration: none;
+}
 
 
 .zoom {
@@ -65,7 +67,7 @@
 }
 
 .zoom:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -91,11 +93,11 @@
 
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
-      background:  #5B8C5A!important;
+      background:  #596157!important;
   }
 }
-.view,body,html{height:100%}.navbar{background-color: #5B8C5A}.top-nav-collapse{background-color: #5B8C5A}@media only screen and (max-width:768px){.navbar{background-color: #5B8C5A}}
+.view,body,html{height:100%}.navbar{background-color: #596157}.top-nav-collapse{background-color:  #596157;}@media only screen and (max-width:768px){.navbar{background-color: #596157}}
 
 .page-footer{
-    background-color:  #596157;
+  background-color: #5B8C5A;
 }

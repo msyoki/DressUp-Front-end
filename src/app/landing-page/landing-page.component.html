@@ -1,77 +1,71 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark scrolling-navbar">
   <!-- <div class="container"> -->
 
-      <!-- Brand -->
-      <a class="navbar-brand" href="/" >
-          <img class="rounded" src="../assets/images/pngegg.png" id="logo"> 
-           <strong id="app"> <a href="/" style="color:white;">DressUp</a> </strong> 
-
-      </a>
+    <!-- Brand -->
+    <a class="navbar-brand" href="/" >
+        <img class="rounded" src="../assets/images/pngegg.png" id="logo"> 
+        <strong id="app"><a href="/" style="color:white;">DressUp</a> </strong> 
+    </a>
      
 
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Collapse -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <!-- Left -->
+        <!-- Left -->
 
-      <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto">
         <br>
-      
-        <div class="dropdown">
-          <strong><a class="left" style="color:white;font-weight:bold">Menu</a></strong>
-          <div class="dropdown-content" >
-            <a  href="#services" >Our Services</a>
-            <a  href="#media" >Media</a>
-            <a  href="#contacts" >Contact Us</a>
-            <a  href="https://dressup05.herokuapp.com/dressup/administrator/" >Admin Dashboard</a>
-          </div>
-        </div>
-        <br>
-
-        <div class="dropdown">
-          <strong><a class="left" style="color:white;font-weight:bold">Categories</a></strong>
-          <div class="dropdown-content" style="font-weight: bold;">
-            <a routerLink="/men" routerLinkActive="active"  >Gents</a>
-            <a routerLink="/ladies" routerLinkActive="active" >Ladies</a>
-            <a routerLink="/juniors" routerLinkActive="active" >Juniors</a>
-          </div>
-        </div>
-      </ul>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#products" >Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#categories" >Categories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services" >Our Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#media" >Media</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacts" >Contact Us</a>
-        </li>
-      </ul> -->
-
-      <!-- Right -->
-      <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
-        <div class="dropdown">
-            <strong><a class="left" style="color:white;font-weight:bold">Account</a></strong>
-            <div class="dropdown-content" style="font-weight: bold;">
-              <a routerLink="/login" routerLinkActive="active"  >Log In</a>
-              <a routerLink="/register" routerLinkActive="active" >Register</a>
-              <!-- <a (click)="logout()" >Log out</a> -->
+        
+            <div class="dropdown">
+            <strong><a class="left" style="color:white;font-weight:bold">Menu</a></strong>
+            <div class="dropdown-content" >
+                <a  href="#services" >Our Services</a>
+                <a  href="#media" >Media</a>
+                <a  href="#contacts" >Contact Us</a>
+                <a  href="https://dressup05.herokuapp.com/dressup/administrator/" >Admin Dashboard</a>
             </div>
-        </div>
+            </div>
+            <br>
 
-      </ul>
-      </div>
+            <div class="dropdown">
+            <strong><a class="left" style="color:white;font-weight:bold">Categories</a></strong>
+            <div class="dropdown-content" style="font-weight: bold;">
+                <a routerLink="/men" routerLinkActive="active"  >Gents</a>
+                <a routerLink="/ladies" routerLinkActive="active" >Ladies</a>
+                <a routerLink="/juniors" routerLinkActive="active" >Juniors</a>
+            </div>
+            </div>
+        </ul>
+
+        <ul class="navbar-nav nav-flex-icons" style="padding-top:10px ;">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <i class="fas fa-user"></i><strong>Account</strong></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                  <a class="dropdown-item" routerLink="/login" routerLinkActive="active"><strong>Log In</strong></a>
+                  <a class="dropdown-item" routerLink="/register" routerLinkActive="active"><strong>Register</strong></a>
+                  <a class="dropdown-item" href="/login"><strong>Post product</strong></a>
+                </div>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <strong><a class="left" style="color:white;font-weight:bold">Account</a></strong>
+                    <div class="dropdown-content" style="font-weight: bold;">
+                    <a   >Log In</a>
+                    <a  >Register</a>
+                    
+                    </div>
+                </div>
+            </li> -->
+
+        </ul>
+    </div>
 </nav>
 <div style="background-color: #5B8C5A;overflow: hidden;" >
     <div class="container">
