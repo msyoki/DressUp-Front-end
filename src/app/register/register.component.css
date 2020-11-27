@@ -11,3 +11,78 @@
 a{
     color: #5B8C5A;
 }
+
+
+#logo{
+    width:40px;
+    height:100%;
+   
+    color: transparent;
+  
+  }
+  #app{
+    padding-left:0%;
+    /* font-style:italic; */
+    font-family: 'Anton', sans-serif;
+    color: white;
+    
+  }
+  #home{
+    margin-top: 20px;
+  }
+  .left {
+    margin-top:5px;
+    text-decoration-color: white;
+   padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    color:  #5B8C5A;
+    font-weight:bold;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: #596157;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: white;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+ 
+  
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background:  #596157!important;
+    }
+  }
+  .view,body,html{height:100%}.navbar{background-color: #596157}.top-nav-collapse{background-color:  #596157;}@media only screen and (max-width:768px){.navbar{background-color: #596157}}
+  
+  .page-footer{
+    background-color: #5B8C5A;
+  }
