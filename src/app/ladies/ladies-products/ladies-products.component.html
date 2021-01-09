@@ -1,11 +1,14 @@
-<div class="grid prakesh" >
-    <ng-container *ngFor="let product of products$ | async">
-        <a href="#" style="background-image: url('https://dressup05.herokuapp.com/api{{ product.image }}')">
-            <span>{{ product.name }} <br>
-                <small>size: {{ product.size }}</small><br>
-                <small>Price:  {{ product.price }} Kshs</small><br>
-            </span>
-            
-        </a><br><br><br>
+<div class="container">
+    <ng-container id="product" *ngFor="let product of products$ | async">
+        
+        <div class="gallery card w3-animate-zoom">
+            <a target="_blank" href="https://dressup05.herokuapp.com/api{{ product.image }}">
+              <img src="https://dressup05.herokuapp.com/api{{ product.image }}" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">{{ product.name }} <br>Kshs {{ product.price }}</div>
+        </div>
+      
+
     </ng-container>
-</div>
+
+</div> 

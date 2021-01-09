@@ -3,3 +3,7 @@
 body{
     color: #596157;
 }
+
+html{
+    scroll-behavior: smooth;
+}
